@@ -5,13 +5,13 @@ from dotenv import load_dotenv
 PREFIX = '!'
 # Emojis the bot should use for certain events
 EMOJIS = {
-    'DISCORD': '🗨️',  # When a message is sent from Discord
-    'HYPIXEL': '🎮',  # When a message is sent from Hypixel
-    'JOIN': '📥',  # When a member joins Hypixel
-    'LEAVE': '📤'  # When a member leaves Hypixel
+    'DISCORD': '<:Discord:925509254922784788>',  # When a message is sent from Discord
+    'HYPIXEL': '<:Hypixel:925509305535451176>',  # When a message is sent from Hypixel
+    'JOIN': '<:Join:925509255304478720>',  # When a member joins Hypixel
+    'LEAVE': '<:Leave:925509255128301626>'  # When a member leaves Hypixel
 }
 # List of Owner IDs (to use commands like sumo)
-OWNER_IDS = [177750582818242561]
+OWNER_IDS = [721089849653985421,764197585173872671]
 
 
 # Don't touch this unless you know what you're doing
